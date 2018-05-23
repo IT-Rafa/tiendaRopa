@@ -1,0 +1,70 @@
+
+Entrega Tarea BD
+
+Realiza una aplicación gráfica en java que gestione una base de datos de una tienda.
+
+La aplicación gestionará el stock de productos y las ventas.
+
+De cada producto se desea almacenar la siguiente información.
+
+Producto
+	Nombre
+	Colección
+	Talla
+	Precio
+	Unidades
+
+ 
+
+Clientes:
+
+	Nombre
+	Apellidos
+	Dirección
+	Código postal
+	Provincia
+	Teléfono
+	Correo electrónico
+ 
+
+Pedidos
+
+	Identificador de pedido
+	cliente
+	Fecha
+	Articulo/s y talla
+	Precio
+	Fuente:
+	 	web
+		Facebook
+		instagram
+		watshapp
+		Teléfono,...)
+
+	Estado:
+		En espera
+		En proceso
+		Entregado
+
+ 
+Se facilitará una BD de inicio que deberá ser revisada y modificada para conseguir el funcionamiento deseado.
+
+Se deberá realizar un documento que indique las fases del desarrollo del software:
+
+ - análisis
+ - desarrollo
+ - codificación
+ - pruebas(Con capturas).
+
+Se entregará la base de datos resultante, el software realizado y la documentación del mismo a través de la plataforma.
+
+ 
+mitienda.sql mitienda.sql
+
+
+
+PARÁMETROS A MAYORES
+
+- La base de datos solo es un ejemplo, puede modificarse, hacerse de 0, etc
+- Los artículos podrían tener distintas tallas, por ejemplo (al mismo precio)
+

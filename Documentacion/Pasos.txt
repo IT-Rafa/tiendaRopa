@@ -1,0 +1,25 @@
+
+1º Montamos base datos original, y la analizamos
+
+- No tiene Foreign Key´s
+- Pedidos necesita otra tabla de LineaPedido
+- Algunos datos son fijos
+
+
+2º Rehacemos base datos 
+    Orden general tablas
+        - Sin dependencias de otras tablas:
+            FuentesPedido
+            TiposPago
+            EstadosPedido
+            Temporadas
+            Provincias
+            Localidades
+        - Dependientes de las anteriores:
+            Categorias
+            Clientes
+            Articulos
+        - Dependientes de las anteriores: 
+            Pedidos
+        - Dependientes de las anteriores: 
+            LineasPedidos
